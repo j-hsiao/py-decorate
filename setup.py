@@ -7,6 +7,6 @@ setup(
     author='Jason Hsiao',
     author_email='oaishnosaj@gmail.com',
     description='Various decorators.',
-    packages=['jhsiao.decorate'],
+    packages=['jhsiao', 'jhsiao.decorate'],
     install_requires=['jhsiao-utils @ git+https://github.com/j-hsiao/py-utils.git']
 )
