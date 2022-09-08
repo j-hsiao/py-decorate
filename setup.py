@@ -1,6 +1,6 @@
 from setuptools import setup
-from jhsiao.namespace import make_ns, fdir
-make_ns('jhsiao', dir=fdir(__file__))
+from jhsiao.namespace import make_ns
+make_ns('jhsiao')
 setup(
     name='jhsiao-decorate',
     version='0.0.1',
